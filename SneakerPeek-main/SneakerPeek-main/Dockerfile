@@ -8,6 +8,6 @@ WORKDIR /usr/share/nginx/html
 COPY . .
 
 # Expose port 80 to access the web server
-EXPOSE 8080
+EXPOSE 80
 
 # Nginx runs automatically in this image, so no need to specify CMD
